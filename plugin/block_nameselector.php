@@ -12,7 +12,7 @@ class block_nameselector extends block_base {
 		}
  
 		$this->content         =  new stdClass;
-		$this->content->text   = 'The content of our SimpleHTML block!';
+		$this->content->text   = 'Testing... one two three!';
 		$this->content->footer = 'Footer here...';
  
 		return $this->content;
